@@ -2,19 +2,20 @@
 <html>
    <head>
       <title>Seattle Trip</title>
-      <link rel="stylesheet" href="styles.css">
+      <link rel="stylesheet" href="styles.css" type="text/css" />
    </head>
    
    <body>
       <header>
-         <h1>Planning A Trip: Seattle, Washington</h1>
+         <h1 id="mainHeading">Planning A Trip: Seattle, Washington</h1>
          <hr />
       </header>
       
       <main>
       <section>
-         <h2>About Seattle</h2>
-         <p>Seattle, also known as the Emerald City, is a vibrant seaport city located on the West Coast of the United States. 
+         <h2 id ="about">About Seattle</h2>
+         <p id="testP" class="funParagraph">
+            Seattle, also known as the Emerald City, is a vibrant seaport city located on the West Coast of the United States. 
             Seattle is an amazing vacation destination with a mix of unique attractions, a fresh local food scene, and plenty of outdoorsy adventures. 
             The best time to visit is in the summer, as the weather is warm and dry, and the days are long. However, Seattle’s mild climate makes it enjoyable year-round.
          </p>
@@ -22,18 +23,21 @@
       </section>
 
       <article>
-         <h2>Main Attractions</h2>
-         <p>
+         <h2 id="mainAttractionsHeader">Main Attractions</h2>
+         <p id="mainAttractionsInfo" class="paragraphInfo">
             Seattle has so many amazing attractions it's hard to limit them down to a few.
             Here are a few of the many amazing attractions Seattle is known for:
          </p>
-            <ul>
-               <li>Space Needle</li>
-               <li>Pike Place Market</li>
-            </ul>
-            <img src = "images/spaceNeedle.jpg">
-            <h3>Space Needle</h3>
             <p>
+               Space Needle || Pike Place Market
+            </p>
+            
+
+            
+            <img src="images/spaceNeedle.jpg" id="pic">
+           
+            <h3 id="spaceNeedleHeader">Space Needle</h3>
+            <p id="spaceNeedleInfo" class="paragraphInfo">
                The Space Needle in Seattle, Washington, is an iconic and fascinating structure with several cool features and historical significance.
                The Space Needle stands 605 feet tall, making it the tallest structure in Seattle.
                Its unique design features a slender, futuristic tower with a flying saucer-like observation deck at the top.
@@ -47,9 +51,11 @@
                The Space Needle has 25 lightning rods on its roof to protect against lightning strikes.
             </p>
 
-            <img src ="images/pikePlace.jpg">
-            <h3>Pike Place Market</h3>
-            <p>
+           
+            <img src ="images/pikePlace.jpg" id="pic">
+            
+            <h3 id="pikePlaceHeader">Pike Place Market</h3>
+            <p id="pikePlaceInfo" class="paragraphInfo">
                Pike Place Market in Seattle, Washington, is a vibrant and historic landmark that has captured the hearts of locals and visitors alike.
                Whether you’re shopping for fresh produce, enjoying a meal, or simply soaking in the lively ambiance, Pike Place Market continues to be a beloved cultural destination in Seattle! 
                Pike Place Market began in response to an exorbitant swell in the price of fresh produce during the early 20th century.
@@ -62,19 +68,19 @@
          </article>
 
       <article>
-         <h2>Nature Activities</h2>
-         <p>
+         <h2 id="natureActivitiesHeader">Nature Activities</h2>
+         <p id="natureActivitiesInfo" class="paragraphInfo">
             Seattle is a beautiful city that offers so many nature activities.
             Some of these include but definetly are NOT limited to:
          </p>
-            <ul>
-               <li>Discovery Park</li>
-               <li>Mount Rainer</li>
-            </ul>
-
-            <img src ="images/discoveryPark.jpg">
-            <h3>Discovery Park</h3>
-            <p>
+             <p>
+               Discovery Park || Mount Rainer
+             </p>
+          
+            <img src ="images/discoveryPark.jpg" id="pic">
+          
+            <h3 id="discoveryParkHeader">Discovery Park</h3>
+            <p id="discoveryParkInfo" class="paragraphInfo">
                Discovery Park in Seattle, Washington, is a captivating natural area that offers a blend of breathtaking beauty, historical significance, and outdoor exploration.
                Situated on Magnolia Bluff, Discovery Park provides panoramic views of both the Cascade and Olympic Mountain ranges.
                The park boasts two miles of protected tidal beaches.
@@ -85,9 +91,11 @@
                Whether you’re hiking the trails, visiting the historic lighthouse, or simply enjoying the natural beauty, Discovery Park offers an unmatched opportunity to connect with nature and history. 
             </p>
 
-            <img src="images/mountRainer.jpg">
-            <h3>Mount Rainer</h3>
-            <p>
+            
+            <img src="images/mountRainer.jpg" id="pic">
+          
+            <h3 id="mountRainerHeader">Mount Rainer</h3>
+            <p id="mountRainerInfo" class="paragraphInfo">
                Mount Rainier, located approximately 50 miles south of Seattle, is a remarkable and captivating natural wonder.
                With its 14,410 feet in elevation, Mount Rainier easily towers over smaller rivals in the Cascade Range.
                It is the most heavily glaciered peak in the lower 48 states, boasting 25 major glaciers and over 35 square miles of permanent ice and snow cover.
@@ -101,19 +109,21 @@
       </article>
 
       <article>
-         <h2>Hidden Gems</h2>
-         <p>
+         <h2 id="hiddenGemsHeader">Hidden Gems</h2>
+         <p id="hiddenGemsInfo" class="paragraphInfo">
             Seattle is full of hidden gems waiting to be discovered. 
             Here are some lesser-known spots that offer unique experiences:
          </p>
-            <ul>
-               <li>Fremont Troll</li>
-               <li>Beacon Food Forest</li>
-            </ul>
+               <p>
+                  Fremont Troll || Beacon Food Forest
+               </p>
+   
 
-            <img src="images/fremontTroll.jpg">
-            <h3>Fremont Troll</h3>
-            <p>
+           
+            <img src="images/fremontTroll.jpg" id="pic">
+           
+            <h3 id="fremontTrollHeader">Fremont Troll</h3>
+            <p id="fremontTrollInfo" class="paragraphInfo">
                The Fremont Troll, also known as the Troll Under the Bridge, is a fascinating public sculpture located in the Fremont neighborhood of Seattle, Washington.
                The Fremont Troll is a mixed-media colossal statue that stands 18 feet (5.5 meters) high. 
                It’s situated on N. 36th Street at Troll Avenue N., right under the north end of the George Washington Memorial Bridge (also known as the Aurora Bridge). 
@@ -124,9 +134,11 @@
                Interestingly, the artists hold the copyright to the Troll images, and they’ve taken legal action against businesses that use its image commercially without permission. However, postcards, beer, and other products featuring the Troll are available for non-profit organizations.
             </p>
 
-            <img src="images/foodForest.jpg">
-            <h3>Beacon Food Forest</h3>
-            <p>
+           
+            <img src="images/foodForest.jpg" id="pic">
+           
+            <h3 id="foodForestHeader">Beacon Food Forest</h3>
+            <p id="foodForestInfo" class="paragraphInfo">
                The Beacon Food Forest is a remarkable community-run project located in Seattle, Washington.
                The Beacon Food Forest covers approximately 7 acres and is situated adjacent to Jefferson Park on Beacon Hill. 
                It’s a unique urban food forest that combines agroforestry and permaculture design principles.
